@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: azure;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Home Section Start */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.text {
+   text-align: left;
+   white-space: nowrap;
+}
+
+.text p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #c9b8ff;
+}
+
+.text h1 {
+    margin: 0;
+    font-size: 7.5rem;
+    color: #f297a2;
+}
+
+.image img {
+    padding-left: 0;
+    max-width: 55%;
+    height: auto;
+    float: right;
+}
+
+.more-info {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+    font-size: 20px;
+    color: #f297a2;
+}
+
+/* Home end section start */
+
+
+/* About section start */
+.about {
+    width: 100%;
+    padding: 100px 50px;
+    background-color: azure;
+    margin: 0;
+
+}
+.about img, .anya2{
+    height: auto;
+    width: 480px;
+    size: 0;
+}
+/* .anya2 {
+    /* margin-right: 90px; */
+
+/* } */ 
+.about-text {
+    width: 550px;
+    color: #f297a2;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+
